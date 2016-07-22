@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/style.css">
+
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand black-font" href="#">Ubermelon</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">About </a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Shop </a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" data-toggle="modal" data-target="#myModal">Login</a></li>
+        <li><a href="#">Favorite Melons</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Settings <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Favorite Melons</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+  <h1>Hello, world! We love melons!</h1>
+  <p>Order your melons now!</p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Login</h4>
+      </div>
+      <div class="modal-body">
+        Coming soon!!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-md-3"></div>
+  <div class="col-xs-12 col-md-6">
+    <p style="text-align:center;"><img src = "melon.png" alt"Melon!" style="width:400px;height:300px;"></p>
+    <p>We deliver only the highest quality domestic and exotic elements from local, independent farmers from around the world. Our melons are delivered quickly with the greatest care. We guarantee every order, every time.</p>
+  </div>
+   <div class="col-xs-12 col-md-3"></div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-md-4">
+    <h5><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Award Winning</h5>
+    <p class="feature">Don't take our word for it. See all the awards our melons have earned</p></div>
+  <div class="col-xs-12 col-md-4"><h5><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> Huge Selection</h5>
+    <p class="feature">We import melons from all over the world, ensuring we have every melon you could possibly desire.</p></div>
+  <div class="col-xs-12 col-md-4"><h5><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span> Certified Sustainable</h5>
+    <p class="feature">Our melons are sourced only from sustainable, organic local farmers. These are the healthiest melons you'll ever eat.</p></div>
+</div>
+<div class="row" >
+  <div class="col-xs-12 col-md-2"></div>
+  <div class="col-xs-12 col-md-8">
+    <table class="table table-striped">
+       <tr>
+    <th>Melon</th>
+    <th>Price</th> 
+    <th>Color</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Canteloupe</td>
+    <td>$4.99/lb</td> 
+    <td>Tan</td>
+    <td>Italy</td>
+  </tr>
+  <tr>
+    <td>Honeydew</td>
+    <td>$3.99/lb</td> 
+    <td>White/Green</td>
+    <td>France/Algeria</td>
+  </tr>
+  <tr>
+    <td>Casaba</td>
+    <td>$7.99/lb</td> 
+    <td>Yellow</td>
+    <td>Turkey</td>
+  </tr>
+    </table></div>
+    
+  <div class="col-xs-12 col-md-2"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- You need this in order to use JS-based components in the 
+further study. Leave this at the bottom and code above it. -->
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
